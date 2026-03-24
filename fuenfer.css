@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center; 
+    text-align: center;
+    background: linear-gradient(#1A1A1A 20%, #4A1515 60%, #3D3315 20%);
 }
 
 hr {
@@ -8,7 +9,8 @@ hr {
 }
 
 #title {
-    font-size: 36px; 
+    color: #f7f7f7;
+    font-size: 100px; 
     font-weight: bold; 
     letter-spacing: 2px;
 }
@@ -30,7 +32,7 @@ hr {
     margin: 2.5px;
 
     /* Text */ 
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 36px;
     font-weight: bold;
     display: flex;
@@ -54,4 +56,43 @@ hr {
     background-color: #787C7E;
     color: white; 
     border-color: white; 
+}
+
+.keyboard-row { 
+    width: 400px;
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key-tile {
+    /* Box */ 
+    border: 1px solid lightgray;
+    width: 30px;
+    height: 40px;
+    margin: 1px;
+
+    /* Text */
+    color: #f7f7f7;
+    font-size: 20px;
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter-key-tile {
+    /* Box */ 
+    border: 1px solid lightgray;
+    width: 76px;
+    height: 40px;
+    margin: 1px;
+
+    /* Text */ 
+    color: #f7f7f7;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
